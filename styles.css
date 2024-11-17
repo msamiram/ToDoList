@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    height: auto;
+}
+
+.style {
+    height: 40px;
+    background-color: rgb(255, 208, 0);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.inp {
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    overflow: hidden;
+    padding-right: 100px;
+    padding-left: 20px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(151, 65, 231);
+    height: 45px;
+    width: 200px;
+    border-radius: 50px;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-plus {
+    position: absolute;
+    top: 21px;
+    background-color: #9953f1;
+    color: white;
+    border-radius: 50px;
+    width: 45px;
+    height: 43px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.add {
+    position: relative;
+}
+
+.inpp {
+    position: relative;
+}
+
+form .fa-circle-xmark {
+    position: absolute;
+    right: 43px;
+    top: 15px;
+    font-size: x-large;
+}
+
+.fa-arrow-down-short-wide,
+.fa-arrow-up-short-wide {
+    margin-left: 376px;
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.items {
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    width: 90%;
+    margin: auto;
+}
+
+.item {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+
+.item .fa-circle-xmark {
+    font-size: larger;
+    color: grey;
+}
+
+span {
+
+    margin-right: 10px;
+    width: fit-content;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.fa-circle-xmark:hover {
+    color: #913ff6;
+    cursor: pointer;
+}
+
+
+.toggle-icon:hover {
+    color: #52c96c;
+    cursor: pointer;
+}
+
+.inpp:hover #clearInput {
+    display: block;
+}
+
+
+.items {
+    position: relative;
+}
+
+
+.item {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.fa-circle-xmark {
+    font-size: larger;
+    color: grey;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.no-list-style {
+    list-style-type: none;
+}
+
+ul {
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    width: 90%;
+    margin: auto;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 20px;
+}
+
+.val {
+    display: flex;
+    justify-content: left;
+}
+.val1{
+    
+    margin-left: 15px;
+}
+
+.newClass {
+    overflow-y: scroll;
+}
+
+
+.div1{
+    margin-bottom: 10px;
+}
